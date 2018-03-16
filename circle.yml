@@ -1,0 +1,17 @@
+machine:
+  node:
+    version: 6.1.0
+
+dependencies:
+  override:
+    - echo None!
+
+test:
+  override:
+    - echo None!
+
+deployment:
+  branch:
+    branch: /^master$/
+    commands:
+      - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r dist/* deploy@andrewovens.com:/var/www/nkrobertsca/
