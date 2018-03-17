@@ -337,7 +337,7 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content .carousel-wrapper {
   margin-bottom: 30px;
 }
 
@@ -382,6 +382,24 @@ header.masthead .intro-text .intro-heading {
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+.portfolio-modal .carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-modal .carousel-indicators .active {
+  background-color: black;
+}
+
+.portfolio-modal .carousel-control-prev:hover, .portfolio-modal .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-modal .carousel-control-prev-icon, .portfolio-modal .carousel-control-next-icon {
+  background-image: none;
+  color: black;
+  font-size: 1.5em;
 }
 
 .timeline {

@@ -47,4 +47,30 @@
     $(".navbar").removeClass("d-none");
   })
 
+  // JQuery panzoom for portfolio images
+  var panzooms = $(".panzoom");
+  panzooms.each(function(index) {
+    var $panzoom = panzooms.eq(index);
+    $panzoom.panzoom({
+      $zoomIn: $(".zoom-in"),
+      $zoomOut: $(".zoom-out"),
+      $zoomRange: $(".zoom-range"),
+      $reset: $(".reset"),
+      contain: "invert",
+      minScale: 1
+    });
+  
+    $panzoom.parent().on('mousewheel.focal', function( e ) {
+      e.preventDefault();
+      var delta = e.delta || e.originalEvent.wheelDelta;
+      var zoomOut = delta ? delta < 0 : e.originalEvent.deltaY > 0;
+      $panzoom.panzoom('zoom', zoomOut, {
+        increment: 0.1,
+        animate: false,
+        focal: e
+      });
+    });
+  });
+  
+
 })(jQuery); // End of use strict

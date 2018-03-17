@@ -96,7 +96,7 @@
       margin-top: 0;
       margin-bottom: 30px;
     }
-    img {
+    .carousel-wrapper {
       margin-bottom: 30px;
     }
     button {
@@ -138,7 +138,20 @@
       }
     }
   }
-  .modal-backdrop {
-
+  .carousel-indicators {
+    li {
+      background-color: rgba(0, 0, 0, .5);
+    }
+    .active {
+      background-color: rgba(0, 0, 0, 1);
+    }
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, .1);
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+    color: black;
+    font-size: 1.5em;
   }
 }
