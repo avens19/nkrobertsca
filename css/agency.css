@@ -402,6 +402,10 @@ header.masthead .intro-text .intro-heading {
   font-size: 1.5em;
 }
 
+.portfolio-modal img[data-src] {
+  height: 20px;
+}
+
 .timeline {
   position: relative;
   padding: 0;
