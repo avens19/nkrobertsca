@@ -14,4 +14,5 @@ deployment:
   branch:
     branch: /^master$/
     commands:
-      - scp -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -r ./* deploy@andrewovens.com:/var/www/nkrobertsca/
+      - sudo apt install rsync
+      - rsync -avz ./* deploy@andrewovens.com:/var/www/nkrobertsca/
