@@ -15,4 +15,4 @@ deployment:
     branch: /^master$/
     commands:
       - sudo apt install rsync
-      - rsync -avz ./* deploy@andrewovens.com:/var/www/nkrobertsca/
+      - rsync -avz --delete ./* deploy@andrewovens.com:/var/www/nkrobertsca/
