@@ -51,7 +51,6 @@
         lazyLoad.removeAttr('data-src');
       }
     });
-
   });
   $('.portfolio-modal').on('hidden.bs.modal', function(e) {
     $(".navbar").removeClass("d-none");
