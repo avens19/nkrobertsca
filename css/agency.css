@@ -504,6 +504,10 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 0;
 }
 
+.timeline > li:last-child:after {
+  content: none;
+}
+
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;

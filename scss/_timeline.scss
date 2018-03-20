@@ -81,6 +81,9 @@
     }
     &:last-child {
       margin-bottom: 0;
+      &:after {
+        content: none;
+      }
     }
   }
   .timeline-heading {
