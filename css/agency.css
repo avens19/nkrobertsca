@@ -219,11 +219,6 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
-}
-
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -465,7 +460,7 @@ header.masthead .intro-text .intro-heading {
   z-index: 100;
   left: 0;
   width: 80px;
-  height: 80px;
+  height: 102px;
   margin-left: 0;
   text-align: center;
   color: white;
@@ -539,7 +534,7 @@ header.masthead .intro-text .intro-heading {
   .timeline > li .timeline-image {
     left: 50%;
     width: 100px;
-    height: 100px;
+    height: 128px;
     margin-left: -50px;
   }
   .timeline > li .timeline-image h4 {
@@ -563,7 +558,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li .timeline-image {
     width: 150px;
-    height: 150px;
+    height: 195px;
     margin-left: -75px;
   }
   .timeline > li .timeline-image h4 {
@@ -585,7 +580,7 @@ header.masthead .intro-text .intro-heading {
   }
   .timeline > li .timeline-image {
     width: 150px;
-    height: 150px;
+    height: 195px;
     margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
@@ -594,27 +589,6 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
-}
-
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
 }
 
 section#contact {
