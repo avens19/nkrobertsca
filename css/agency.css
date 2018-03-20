@@ -470,7 +470,7 @@ header.masthead .intro-text .intro-heading {
   text-align: center;
   color: white;
   border: 7px solid #e9ecef;
-  border-radius: 100%;
+  border-radius: .25rem;
   background-color: #65c3ac;
 }
 
@@ -580,8 +580,8 @@ header.masthead .intro-text .intro-heading {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     margin-left: -85px;
   }
   .timeline > li .timeline-image h4 {
@@ -624,52 +624,28 @@ section#contact .section-heading {
   color: #fff;
 }
 
-section#contact .form-group {
-  margin-bottom: 25px;
+section#contact ul.social-buttons {
+  margin-bottom: 0;
+  text-align: center;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
+section#contact ul.social-buttons li a {
+  font-size: 40px;
+  line-height: 74px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #65c3ac;
 }
 
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 248px;
-}
-
-section#contact .form-control:focus {
-  border-color: #65c3ac;
-  box-shadow: none;
-}
-
-section#contact ::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#contact :-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 18- */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#contact ::-moz-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  /* Firefox 19+ */
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-section#contact :-ms-input-placeholder {
-  font-weight: 700;
-  color: #ced4da;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+section#contact ul.social-buttons li a:active, section#contact ul.social-buttons li a:focus, section#contact ul.social-buttons li a:hover {
+  background-color: #49b89d !important;
 }
 
 footer {
@@ -690,27 +666,4 @@ footer ul.quicklinks {
   margin-bottom: 0;
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-ul.social-buttons {
-  margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 40px;
-  display: block;
-  width: 40px;
-  height: 40px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  color: white;
-  border-radius: 100%;
-  outline: none;
-  background-color: #212529;
-}
-
-ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #65c3ac;
 }
