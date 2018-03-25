@@ -645,3 +645,13 @@ footer ul.quicklinks {
   text-transform: none;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+body {
+  padding-top: 56px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+  }
+}

@@ -10,3 +10,13 @@
 @import "timeline.scss";
 @import "contact.scss";
 @import "footer.scss";
+
+body {
+  padding-top: 56px;
+}
+
+@media(min-width:992px) {
+  body {
+    padding-top: 0;
+  }
+}
